@@ -4,16 +4,16 @@ int main()
 	//2.21
 	printf("2.21\n");
 	int i,j,k;
-	for (i = 1; i <= 10; i++)
+	for (i = 1; i <= 9; i++)
 	{
 		printf("* ");
 	}
 	printf("\n");
-	for (i = 1; i <= 8; i++)
+	for (i = 1; i <= 7; i++)
 	{
-		printf("*                 *\n");
+		printf("*               *\n");
 	}
-	for (i = 1; i <= 10; i++)
+	for (i = 1; i <= 9; i++)
 	{
 		printf("* ");
 	}
