@@ -93,31 +93,38 @@ int main()
 	printf("\n2.25\n");
 	for (i = 1; i <= 9; i++)
 	{
-		printf("P");
+		printf("T");
 	}
 	printf("\n");
-	for (i = 1; i < 4; i++)
+	for (i = 1; i <= 5; i++)
 	{
-		printf("    P   P\n");
-	}
-	printf("     P P\n");
-	printf("  JJ\n");
-	printf(" J\n");
-	printf("J\n");
-	printf(" J\n  ");
-	for (i = 1; i <= 7; i++)
-	{
-		printf("J");
+		printf("    T\n");
 	}
 	printf("\n");
 	for (i = 1; i <= 9; i++)
 	{
-		printf("D");
+		printf("C");
 	}
-	printf("\nD       D\n");
-	printf("D       D\n");
-	printf(" D     D\n");
-	printf("  DDDDD\n");
+	printf("\n");
+	for (i = 1; i <= 5; i++)
+	{
+		printf("C\n");
+	}
+	for (i = 1; i <= 9; i++)
+	{
+		printf("C");
+	}
+	printf("\n");
+	printf("\n");
+	for (i = 1; i <= 4; i++)
+	{
+		printf("H       H\n");
+	}
+	printf("HHHHHHHHH\n");
+	for (i = 1; i <= 4; i++)
+	{
+		printf("H       H\n");
+	}
 
 	//2.26
 	printf("\n2.26\n");
